@@ -1206,7 +1206,7 @@ figcaption,
 ---------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #00008e;
+	background-color: #fff;
 	border-bottom: 1px solid #eee;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -1219,11 +1219,10 @@ figcaption,
 --------------------------------------------- */
 
 .title-area {
-    /* float: left; */
-    padding-bottom: 27px;
-    padding-top: 27px;
-    /* width: 20%; */
-    text-align: center;
+	float: left;
+	padding-bottom: 27px;
+	padding-top: 27px;
+	width: 20%;
 }
 
 .header-image .title-area {
@@ -1247,7 +1246,7 @@ figcaption,
 .site-title a,
 .site-title a:hover,
 .site-title a:focus {
-	color: #ffffff;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -1288,11 +1287,11 @@ figcaption,
 }
 
 .genesis-nav-menu a {
-	color: #ffffff;
+	color: #000;
 	display: block;
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 10px;
+	font-size: 1rem;
 	font-weight: 700;
 	letter-spacing: 2px;
 	padding: 30px 20px;
@@ -1305,7 +1304,7 @@ figcaption,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus {
-	color: #b9d93c;
+	color: #d43c67;
 	text-decoration: none;
 }
 
@@ -1376,10 +1375,10 @@ figcaption,
 --------------------------------------------- */
 
 .nav-primary {
-    /* float: left; */
-    margin-top: 2px;
-    text-align: center;
-    /* width: 60%; */
+	float: left;
+	margin-top: 2px;
+	text-align: center;
+	width: 60%;
 }
 
 /* Footer Navigation
