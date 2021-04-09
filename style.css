@@ -262,6 +262,12 @@ blockquote::before {
 	top: -10px;
 }
 
+/* --- ASK customizations --- */
+.sansserif {	
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* --- end of ASK customizations --- */
 
 /* Headings
 --------------------------------------------- */
