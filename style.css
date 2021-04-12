@@ -1210,7 +1210,6 @@ figcaption, .gallery-caption, .wp-caption-text {
 ---------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #00008e;
 	background-color: #493bfe;
 	border-bottom: 1px solid #eee;
 	padding-left: 30px;
@@ -1788,10 +1787,11 @@ p.entry-meta {
 ---------------------------------------------------------------------------- */
 
 .site-footer {
-	border-top: 1px solid #eee;
-	line-height: 1;
-	padding: 60px 0;
-	text-align: center;
+    border-top: 1px solid #eee;
+    line-height: 1;
+    padding: 60px 0;
+    text-align: center;
+    background-color: #00008e;
 }
 
 .site-footer .wrap {
@@ -1802,18 +1802,19 @@ p.entry-meta {
 }
 
 .site-footer p {
-	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 	margin-bottom: 0;
+	color: #a7a1eb;
 }
 
 .site-footer a {
-	color: #493bfe;
+	color: #ffffff;
 }
 
 .site-footer a:hover,
 .site-footer a:focus {
-	color: #00008e;
+	color: #b9d93c;
 }
 
 
