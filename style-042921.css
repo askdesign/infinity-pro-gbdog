@@ -288,9 +288,8 @@ blockquote::before {
 }
 
 .contact-ion {
-    font-size: 44px;
-    margin-top: -10px;
-    text-align: right;
+	font-size: 44px;
+	margin-top: -10px;
 }
 
 /* --- end of ASK customizations --- */
