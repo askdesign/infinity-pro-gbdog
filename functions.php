@@ -161,9 +161,17 @@ function register_services_genesis_menus() {
 	add_action( 'genesis_before_content', 'add_services_nav' ); 
 	function add_services_nav() {
 	 
+
+	echo'
+
+	<div class="nav-services">';
 	wp_nav_menu( array( 
 	'theme_location' => 'services-menu', 
 	'container_class' => 'genesis-nav-menu' ) );
+	echo'</div>
+	
+	';
+
 	}
 
 // end of third nav menu custom code - ASK Design

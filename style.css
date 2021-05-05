@@ -1426,6 +1426,37 @@ figcaption, .gallery-caption, .wp-caption-text {
 	padding: 0 20px;
 }
 
+/* Services Navigation - ASK Design
+--------------------------------------------- */
+
+.nav-services {
+	display: none;
+}
+
+.page-id-9 .nav-services {
+	display:block;
+    margin-top: 2px;
+    text-align: center;
+    /* width: 60%; */
+    margin-left: -30px;
+    margin-right: -30px;
+    background-color: #ffffff;
+	color: #00008e;
+	border-bottom: 1px solid #00008e;
+}
+
+.page-id-9 .nav-services .genesis-nav-menu a {
+	color: #00008e;
+}
+
+/* --- Fix anchor links sitting too low --- */
+:target::before {
+    content: '';
+    display: block;
+    height:      240px;
+    margin-top: -240px;
+}
+
 
 /* Content Area
 ---------------------------------------------------------------------------- */
