@@ -151,23 +151,6 @@ add_action( 'genesis_header', 'genesis_do_nav', 12 );
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 add_action( 'genesis_footer', 'genesis_do_subnav', 5 );
 
-// Add services navigation menu - ASK Design
-function register_services_genesis_menus() {
-	register_nav_menu( 'services-menu' ,
-	__( 'Services Navigation Menu' ));
-	}
-	add_action( 'init', 'register_services_genesis_menus' );
-	 
-	add_action( 'genesis_before_content', 'add_services_nav' ); 
-	function add_services_nav() {
-	 
-	wp_nav_menu( array( 
-	'theme_location' => 'services-menu', 
-	'container_class' => 'genesis-nav-menu' ) );
-	}
-
-// end of third nav menu custom code - ASK Design
-
 // Add offscreen content if active.
 add_action( 'genesis_after_header', 'infinity_offscreen_content_output' );
 function infinity_offscreen_content_output() {
