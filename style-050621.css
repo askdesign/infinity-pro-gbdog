@@ -515,7 +515,7 @@ input[type="reset"],
 input[type="select"],
 input[type="submit"],
 .button {
-	background-color: #7d932d;
+	background-color: #493bfe;
 	border: 0;
 	border-radius: 0;
 	color: #fff;
@@ -555,7 +555,7 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus {
-	background-color: #627423;
+	background-color: #000;
 	color: #fff;
 }
 
