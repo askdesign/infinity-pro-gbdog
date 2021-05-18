@@ -267,6 +267,11 @@ blockquote::before {
 	font-family: 'Alegreya Sans', sans-serif;
 }
 
+.clearboth {
+	clear: both;
+}
+
+/* --- Check on this: May not need dashicons anymore --- */
 .gbd.dashicons, .dashicons-before:before {
     font-family: dashicons;
     display: inline-block;
@@ -292,6 +297,11 @@ blockquote::before {
     margin-top: -10px;
     text-align: right;
 }
+
+.about-quote {
+	margin-top: -12px;	
+}
+
 
 /* --- end of ASK customizations --- */
 
