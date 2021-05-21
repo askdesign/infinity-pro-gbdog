@@ -1440,11 +1440,10 @@ figcaption, .gallery-caption, .wp-caption-text {
 --------------------------------------------- */
 
 .nav-services {
-/* ---	display: none; --- */
+	display: none;
 }
 
-/* --- no longer needed: .page-id-9 .nav-services --- */
-.nav-services {
+.page-id-9 .nav-services {
 	display:block;
     margin-top: 2px;
     text-align: center;
@@ -1456,7 +1455,7 @@ figcaption, .gallery-caption, .wp-caption-text {
 	border-bottom: 1px solid #00008e;
 }
 
-.nav-services, .nav-services .genesis-nav-menu a {
+.page-id-9 .nav-services .genesis-nav-menu a {
 	color: #00008e;
 }
 
