@@ -158,8 +158,8 @@ function register_services_genesis_menus() {
 	}
 	add_action( 'init', 'register_services_genesis_menus' );
 	 
-	add_action( 'genesis_before_content', 'prefix_add_services_nav' );
-	function prefix_add_services_nav() {
+	add_action( 'genesis_before_content', 'ask_add_services_nav' );
+	function ask_add_services_nav() {
 		if ( ! is_page( 9 ) ) {
 			return;
 		}
