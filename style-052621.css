@@ -1270,7 +1270,7 @@ figcaption, .gallery-caption, .wp-caption-text {
 .header-image .title-area {
     min-height: 126px;
     padding: 0;
-    width: 600px;
+    width: 450px;
     margin: 3px auto 4px;
 }
 
@@ -1292,10 +1292,10 @@ figcaption, .gallery-caption, .wp-caption-text {
 }
 
 .header-image .site-title > a {
-    background-size: 40% !important;
+    background-size: 50% !important;
     float: left;
     min-height: 126px;
-    width: 600px;
+    width: 450px;
     padding-top: 102px;
 }
 
