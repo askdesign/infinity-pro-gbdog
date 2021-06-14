@@ -2050,7 +2050,7 @@ p.entry-meta {
 
 	.menu-toggle:focus,
 	.sub-menu-toggle:focus {
-		outline: 0 solid #ccc;
+		outline: thin solid #ccc;
 		outline-offset: -1px;
 	}
 
@@ -2108,11 +2108,10 @@ p.entry-meta {
 
 	.genesis-responsive-menu .genesis-nav-menu a:focus,
 	.genesis-responsive-menu .genesis-nav-menu a:hover {
-		color: #00008e;
+		color: #b9d93c;
 	}
 
 	.genesis-responsive-menu .genesis-nav-menu a:focus {
-		color: #00008e;
 		outline: thin solid #ccc;
 		outline-offset: -1px;
 	}
@@ -2220,7 +2219,9 @@ p.entry-meta {
 --------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
-
+	.site-footer .genesis-nav-menu a {
+		padding: 10px;
+	}
 
 }
 
