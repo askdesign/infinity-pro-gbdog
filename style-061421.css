@@ -1927,43 +1927,14 @@ p.entry-meta {
 /* Media Queries
 ---------------------------------------------------------------------------- */
 
-/* Desktops, laptops and iPads (landscape)
---------------------------------------------- */
-
-@media only screen and (max-width: 1139px) {
-
-
-}
-
-/* iPads (landscape)
---------------------------------------------- */
-
 @media only screen and (max-width: 1023px) {
 
-	.genesis-nav-menu a, .site-footer .genesis-nav-menu a {
+	.genesis-nav-menu a {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
 
 }
-
-/* mobile device 960 
---------------------------------------------- */
-@media only screen and (max-width: 960px) {
-	.site-footer {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
-	.site-footer .wrap {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	  
-}
-
-/* mobile device 800 
---------------------------------------------- */
 
 @media only screen and (max-width: 800px) {
 
@@ -1989,7 +1960,7 @@ p.entry-meta {
 	}
 
 	.header-image .site-title > a {
-		/* --- background-position: center !important; --- */
+		background-position: center !important;
 		display: block;
 		float: none;
 		margin: 0 auto;
@@ -2005,11 +1976,6 @@ p.entry-meta {
 	.site-header .title-area,
 	.site-title {
 		text-align: center;
-	}
-
-	.nav-primary {
-		width: 100%;
-		margin: 2px auto 0;
 	}
 
 	/* Genesis Responsive Menus */
@@ -2030,8 +1996,8 @@ p.entry-meta {
 	.menu-toggle,
 	.sub-menu-toggle {
 		border-width: 0;
-		background-color: #00008e;
-		color: #fff;
+		background-color: #fff;
+		color: #333;
 		display: block;
 		margin: 0 auto;
 		overflow: hidden;
@@ -2043,14 +2009,14 @@ p.entry-meta {
 	.menu-toggle:hover,
 	.sub-menu-toggle:focus,
 	.sub-menu-toggle:hover {
-		background: #00008e;
-		color: #fff;
+		background: transparent;
+		color: #493bfe;
 		border-width: 0;
 	}
 
 	.menu-toggle:focus,
 	.sub-menu-toggle:focus {
-		outline: 0 solid #ccc;
+		outline: thin solid #ccc;
 		outline-offset: -1px;
 	}
 
@@ -2163,24 +2129,11 @@ p.entry-meta {
 		padding-top: 60px;
 	}
 
-	.page-id-9 .site-inner {
-		padding-top: 20px;
-	}
-
-	.nav-services .genesis-nav-menu a {
-		color: #00008e;
-		padding: 0 10px 20px;
-	}
-
 	.content,
 	.content-sidebar .content,
 	.sidebar-content .content {
 		float: none;
 		padding: 0;
-	}
-
-	.page-id-9 .content {
-		padding-top: 20px;
 	}
 
 	.content-sidebar .content {
@@ -2215,17 +2168,6 @@ p.entry-meta {
 	}
 
 }
-
-/* iPhones (portrait and landscape) 
---------------------------------------------- */
-
-@media only screen and (max-width: 768px) {
-
-
-}
-
-/* Kindle Fire & Tablets 600
---------------------------------------------- */
 
 @media only screen and (max-width: 600px) {
 
@@ -2266,44 +2208,6 @@ p.entry-meta {
 	}
 
 }
-
-/* mobile device 533
---------------------------------------------- */
-@media only screen and (max-width: 533px) {
-
-
-}
-
-/* mobile device 414
---------------------------------------------- */
-@media only screen and (max-width: 414px) {
-
-
-}
-
-
-/* iPhones 375
---------------------------------------------- */
-@media only screen and (max-width: 375px) {
-
-
-}
-
-/* mobile device 360
---------------------------------------------- */
-@media only screen and (max-width: 360px) {
-
-
-}
-
-/* mobile device 320
---------------------------------------------- */
-@media only screen and (max-width: 320px) {
-
-
-}
-
-
 
 /* Print Styles
 ---------------------------------------------------------------------------- */
