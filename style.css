@@ -294,8 +294,12 @@ blockquote::before {
 
 .contact-ion {
     font-size: 44px;
-    margin-top: -10px;
-    text-align: right;
+    vertical-align: middle;
+}
+
+h5.contact {
+	font-size: 24px;
+    font-size: 2.4rem;
 }
 
 .about-quote {
@@ -1501,6 +1505,10 @@ figcaption, .gallery-caption, .wp-caption-text {
 	padding-left: 40px;
 }
 
+.services ul {
+	margin-bottom: 0px;
+}
+
 .entry-content ol > li {
 	list-style-type: decimal;
 }
@@ -1857,7 +1865,7 @@ p.entry-meta {
 
 .site-footer {
     border-top: 1px solid #eee;
-    line-height: 1;
+    line-height: 1.75;
     padding: 60px 0;
     text-align: center;
     background-color: #00008e;
@@ -2266,19 +2274,60 @@ p.entry-meta {
 		line-height: 1.5;
 	}
 
+	.header-image .site-title > a {
+		width: 100%;
+	}
+
+	.site-title {
+		font-size: 24px;
+		font-size: 2.4rem;
+	}
+
+	figure {
+		text-align: center;
+	}
+
 }
 
 /* mobile device 533
 --------------------------------------------- */
 @media only screen and (max-width: 533px) {
+	.site-title {
+		font-size: 20px;
+		font-size: 2rem;
+	}
 
+	h5.contact {
+		font-size: 20px;
+		font-size: 2rem;
+	}
+	
 
 }
 
 /* mobile device 414
 --------------------------------------------- */
 @media only screen and (max-width: 414px) {
+	.header-image .site-title > a {
+		background-size: 50% !important;
+		min-height: 126px;
+		padding-top: 82px;
+	}
 
+	.nav-services, .nav-services .genesis-nav-menu a {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	h5.contact {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+
+	.contact-ion {
+		font-size: 30px;
+		font-size: 3rem;
+	}
 
 }
 
@@ -2293,6 +2342,15 @@ p.entry-meta {
 /* mobile device 360
 --------------------------------------------- */
 @media only screen and (max-width: 360px) {
+	h5.contact {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+
+	.contact-ion {
+		font-size: 24px;
+		font-size: 2.4rem;
+	}
 
 
 }
