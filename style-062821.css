@@ -2287,11 +2287,6 @@ p.entry-meta {
 		text-align: center;
 	}
 
-	.topofpage-nodisplay,
-	.gb-block-layout-column.topofpage-nodisplay {
-		display: none;
-	}
-
 }
 
 /* mobile device 533
