@@ -2295,6 +2295,11 @@ p.entry-meta {
 	.nav-services, #menu-services {
 		margin-left: 0;
 		margin-right: 0;
+		text-align: left;
+	}
+
+	.nav-services .genesis-nav-menu .menu-item {
+		width: 50%;
 	}
 
 }
