@@ -90,7 +90,6 @@ function infinity_responsive_menu_settings() {
 		'menuClasses'      => array(
 			'others' => array(
 				'.nav-primary',
-				'.nav-services',
 			),
 		),
 	);
