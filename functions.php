@@ -89,10 +89,10 @@ function infinity_responsive_menu_settings() {
 		'subMenuIconClass' => 'ionicons-before ion-chevron-down',
 		'menuClasses'      => array(
 			'combine' => array(
-                '.nav-primary',
+                '.nav-services',
                 '.nav-header',
             ),
-            'others'  => array( '.nav-services' ),
+            'others'  => array( '.nav-primary' ),
 		),
 	);
 
