@@ -88,11 +88,9 @@ function infinity_responsive_menu_settings() {
 		'subMenu'          => __( 'Submenu', 'infinity-pro' ),
 		'subMenuIconClass' => 'ionicons-before ion-chevron-down',
 		'menuClasses'      => array(
-			'combine' => array(
-                '.nav-services',
-                '.nav-header',
-            ),
-            'others'  => array( '.nav-primary' ),
+			'others' => array(
+				'.nav-primary',
+			),
 		),
 	);
 
@@ -196,12 +194,12 @@ function infinity_offscreen_content_output() {
 
 }
 
-// Change secondary navigation menu to two level depth.
+// Reduce secondary navigation menu to one level depth.
 add_filter( 'wp_nav_menu_args', 'infinity_secondary_menu_args' );
 function infinity_secondary_menu_args( $args ) {
 
 	if ( 'secondary' === $args['theme_location'] ) {
-		$args['depth'] = 2;
+		$args['depth'] = 1;
 	}
 
 	return $args;
