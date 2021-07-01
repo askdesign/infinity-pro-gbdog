@@ -196,12 +196,12 @@ function infinity_offscreen_content_output() {
 
 }
 
-// Reduce secondary navigation menu to one level depth.
+// Change secondary navigation menu to two level depth.
 add_filter( 'wp_nav_menu_args', 'infinity_secondary_menu_args' );
 function infinity_secondary_menu_args( $args ) {
 
 	if ( 'secondary' === $args['theme_location'] ) {
-		$args['depth'] = 1;
+		$args['depth'] = 2;
 	}
 
 	return $args;
