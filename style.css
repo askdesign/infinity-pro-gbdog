@@ -1348,7 +1348,8 @@ figcaption, .gallery-caption, .wp-caption-text {
 .genesis-nav-menu a:focus,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.genesis-nav-menu .sub-menu .current-menu-item > a:focus {
+.genesis-nav-menu .sub-menu .current-menu-item > a:focus,
+.nav-services .genesis-nav-menu a:hover {
 	color: #b9d93c;
 	text-decoration: none;
 }
