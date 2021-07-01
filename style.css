@@ -1363,7 +1363,7 @@ figcaption, .gallery-caption, .wp-caption-text {
 	-ms-transition:     opacity .4s ease-in-out;
 	-o-transition:      opacity .4s ease-in-out;
 	transition:         opacity .4s ease-in-out;
-	width: 200px;
+	width: 250px;
 	z-index: 99;
 }
 
@@ -1373,7 +1373,7 @@ figcaption, .gallery-caption, .wp-caption-text {
 	border-top: 0;
 	padding: 20px;
 	position: relative;
-	width: 200px;
+	width: 250px;
 	word-wrap: break-word;
 }
 
@@ -1443,13 +1443,9 @@ figcaption, .gallery-caption, .wp-caption-text {
 /* Services Navigation - ASK Design
 --------------------------------------------- */
 
-.nav-services {
-/* ---	display: none; --- */
-}
-
 /* --- no longer needed: .page-id-9 .nav-services --- */
 .nav-services {
-	display:block;
+	display: block;
     margin-top: 2px;
     text-align: center;
     /* width: 60%; */
@@ -2302,6 +2298,9 @@ p.entry-meta {
 		width: 50%;
 	}
 
+	.nav-services .genesis-nav-menu .sub-menu a {
+		padding: 20px 10px;
+	}
 }
 
 /* mobile device 533
